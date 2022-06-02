@@ -7,12 +7,41 @@ body {
   color: #5a5a5a;
 }
 
+/* Navbar */
 .teen-logo {
   width: 60px;
 }
 
 .nav-item {
   padding: 10px;
+}
+
+.twitter {
+  color: #1c9bef;
+}
+
+.instagram {
+  color: #ff4248;
+}
+
+.instagram:hover {
+  color: #ff0d60;
+}
+
+.facebook {
+  color: #0474e7;
+}
+
+.facebook:hover {
+  color: #109af6;
+}
+
+.youtube {
+  color: red;
+}
+
+.youtube:hover {
+  color: #ff0200;
 }
 
 /* CUSTOMIZE THE CAROUSEL

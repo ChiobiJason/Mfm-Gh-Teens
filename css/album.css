@@ -1,10 +1,58 @@
+/* Navbar   */
+.teen-logo {
+  width: 60px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.twitter {
+  color: #1c9bef;
+}
+
+.instagram {
+  color: #ff4248;
+}
+
+.instagram:hover {
+  color: #ff0d60;
+}
+
+.facebook {
+  color: #0474e7;
+}
+
+.facebook:hover {
+  color: #109af6;
+}
+
+.youtube {
+  color: red;
+}
+
+.youtube:hover {
+  color: #ff0200;
+}
+
+/* Youtube Video */
 #go-visit {
   text-align: center;
 }
 
-.teen-logo{
-  width: 150px;
-  padding-right: 100px;
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Footer */

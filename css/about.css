@@ -14,6 +14,34 @@
     padding: 10px;
   }
 
+  .twitter {
+    color: #1c9bef;
+  }
+  
+  .instagram {
+    color: #ff4248;
+  }
+  
+  .instagram:hover {
+    color: #ff0d60;
+  }
+  
+  .facebook {
+    color: #0474e7;
+  }
+  
+  .facebook:hover {
+    color: #109af6;
+  }
+  
+  .youtube {
+    color: red;
+  }
+  
+  .youtube:hover {
+    color: #ff0200;
+  }
+
 /* About Us */
   #about {
       background-color: blueviolet;
