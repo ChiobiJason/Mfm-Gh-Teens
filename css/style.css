@@ -7,6 +7,10 @@ body {
   color: #5a5a5a;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Navbar */
 .teen-logo {
   width: 60px;
