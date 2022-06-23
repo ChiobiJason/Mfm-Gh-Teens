@@ -147,4 +147,74 @@
   .followus {
       padding-top: 50px;
   }
+
+  #missionandvision {
+    text-align: center;
+    background: #A149FA;
+    max-width: 100%;
+    color: black;
+  }
+  
+  #ourmission {
+    font-size: 30px;
+    line-height: 1.3;
+    opacity: 0;
+    position: relative;
+    animation: missionheading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes missionheading {
+    0% {top: -50px;}
+    100% {top: 50px; opacity: 1;}
+  }
+  
+  .ourmissioncontent {
+    padding: 50px 30px 20px 30px;
+    line-height: 1.3;
+    opacity: 0;
+    position: relative;
+    animation: missioncontent;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes missioncontent {
+    0% {left: -1000px;}
+    100% {left: 0px; opacity: 1;}
+  }
+  
+  #mfmvision {
+    font-size: 30px;
+    line-height: 1.3;
+    opacity: 0;
+    position: relative;
+    animation: visionheading;
+    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes visionheading {
+    0% {top: -50px;}
+    100% {top: 50px; opacity: 1;}
+  }
+  
+  .mfmvcontent {
+    padding: 50px 30px 100px 30px;
+    line-height: 1.3;
+    opacity: 0;
+    position: relative;
+    animation: visioncontent;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes visioncontent {
+    0% {left: -1000px;}
+    100% {left: 0px; opacity: 1;}
+  }
   
