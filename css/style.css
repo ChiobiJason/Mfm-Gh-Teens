@@ -126,6 +126,25 @@ img {
   letter-spacing: -.05rem;
 }
 
+.mfmhqgh {
+  text-decoration: none;
+  color: #912090;
+}
+
+.mfmhqgh:hover {
+  color: #912090;
+}
+
+.bg {
+  border-radius: 50px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.bg:hover {
+  transform: rotateY(180deg);
+}
+
 /* Footer */
 #animate {
   background-color: #eee;
