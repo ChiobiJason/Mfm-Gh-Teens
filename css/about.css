@@ -14,12 +14,18 @@
     padding: 10px;
   }
 
+  #sociolinks {
+    text-align: center;
+  }
+
   .twitter {
     color: #1c9bef;
+    padding: 10px;
   }
   
   .instagram {
     color: #ff4248;
+    padding: 10px;
   }
   
   .instagram:hover {
@@ -28,6 +34,7 @@
   
   .facebook {
     color: #0474e7;
+    padding: 10px;
   }
   
   .facebook:hover {
@@ -36,10 +43,21 @@
   
   .youtube {
     color: red;
+    padding: 10px;
   }
   
   .youtube:hover {
     color: #ff0200;
+  }
+
+  .give {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+  }
+  
+  .give:hover {
+    color: black;
   }
 
 /* About Us */
@@ -114,6 +132,7 @@
     font-size: 27px;
     margin-right: 11px;
     cursor: pointer;
+    border-radius: 50px;
   }
   
   .social-twitter {
