@@ -186,3 +186,12 @@ a.fb {
   color: #fff;
   top: 5px;
 }
+
+#github {
+  text-align: center;
+  color: black;
+}
+
+a.github {
+  text-decoration: none;
+}
