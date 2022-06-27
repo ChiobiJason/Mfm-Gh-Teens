@@ -70,6 +70,16 @@
   .abouttitle {
       color: white;
       padding: 150px 0px;
+      position: relative;
+      opacity: 0;
+      animation: about;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+  }
+
+  @keyframes about {
+    0% {top: -1000px;}
+    100% {top: 0px; opacity: 1;}
   }
 
   /* MFM IN GHANA */
