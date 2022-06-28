@@ -90,11 +90,30 @@
 
   .mfminghana {
       padding: 30px 0px 5px;
+      position: relative;
+      opacity: 0;
+      animation: mfminghana;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
   }
 
+  @keyframes mfminghana {
+    0% {bottom: -1000px;}
+    100% {bottom: 0px; opacity: 1;}
+  }
+  
   .mfminghanatext {
-      line-height: 2;
       padding: 0px 50px 20px;
+      Opacity: 0;
+      position: relative;
+      animation: mfminghanatext;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+  }
+
+  @keyframes mfminghanatext {
+    0% {right: -1000px;}
+    100% {right: 0px; opacity: 1;}
   }
 
   /* MFM WORLDWIDE */
@@ -108,6 +127,33 @@
 
   #mfmworldwideheading {
       text-align: center;
+      opacity: 0;
+      position: relative;
+      animation: mfmworldwideheading;
+      animation-duration: 1s;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+  }
+
+  @keyframes mfmworldwideheading {
+    0% {top: -50px;}
+    25% {top: 0px; opacity: 1;}
+    50% {top: -50px;}
+    100% {top: 0px; opacity: 1;}
+  }
+
+  .mfmworldwidetext {
+    padding: 10px 0px;
+    opacity: 0;
+    animation: mfmworldwidetext;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes mfmworldwidetext {
+    0% {right: -1000px;}
+    100% {right: 0px; opacity: 1;}
   }
 
 /* WHAT WE BELEIVE */
@@ -118,6 +164,103 @@
       /* background-color: #CA82FF; */
       line-height: 2;
   }
+
+  .whatwebeleiveheading {
+    opacity: 0;
+    position: relative;
+    animation: whatwebeleiveheading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes whatwebeleiveheading {
+    0% {top: -1000px;}
+    100% {top: 0px; opacity: 1;}
+  }
+  
+  .listitems {
+    position: relative;
+    animation: listitems;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes listitems {
+    0% {top: -1000px;}
+    100% {top: 0px; opacity: 1;}
+  }
+
+/* Mission & Vision */
+    #missionandvision {
+      text-align: center;
+      /* background: #A149FA; */
+      background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+      max-width: 100%;
+      color: white;
+    }
+    
+    #ourmission {
+      font-size: 30px;
+      line-height: 1.3;
+      opacity: 0;
+      position: relative;
+      animation: missionheading;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes missionheading {
+      0% {top: -50px;}
+      100% {top: 50px; opacity: 1;}
+    }
+    
+    .ourmissioncontent {
+      padding: 50px 30px 20px 30px;
+      line-height: 1.3;
+      opacity: 0;
+      position: relative;
+      animation: missioncontent;
+      animation-duration: 3s;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes missioncontent {
+      0% {left: -1000px;}
+      100% {left: 0px; opacity: 1;}
+    }
+    
+    #mfmvision {
+      font-size: 30px;
+      line-height: 1.3;
+      opacity: 0;
+      position: relative;
+      animation: visionheading;
+      animation-delay: 6s;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes visionheading {
+      0% {top: -50px;}
+      100% {top: 50px; opacity: 1;}
+    }
+    
+    .mfmvcontent {
+      padding: 50px 30px 100px 30px;
+      line-height: 1.3;
+      opacity: 0;
+      position: relative;
+      animation: visioncontent;
+      animation-duration: 3s;
+      animation-delay: 9s;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes visioncontent {
+      0% {left: -1000px;}
+      100% {left: 0px; opacity: 1;}
+    }
 
 /* Footer */
   #animate {
@@ -179,77 +322,6 @@
   .followus {
       padding-top: 50px;
   }
-
-  #missionandvision {
-    text-align: center;
-    /* background: #A149FA; */
-    background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
-    max-width: 100%;
-    color: white;
-  }
-  
-  #ourmission {
-    font-size: 30px;
-    line-height: 1.3;
-    opacity: 0;
-    position: relative;
-    animation: missionheading;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes missionheading {
-    0% {top: -50px;}
-    100% {top: 50px; opacity: 1;}
-  }
-  
-  .ourmissioncontent {
-    padding: 50px 30px 20px 30px;
-    line-height: 1.3;
-    opacity: 0;
-    position: relative;
-    animation: missioncontent;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes missioncontent {
-    0% {left: -1000px;}
-    100% {left: 0px; opacity: 1;}
-  }
-  
-  #mfmvision {
-    font-size: 30px;
-    line-height: 1.3;
-    opacity: 0;
-    position: relative;
-    animation: visionheading;
-    animation-delay: 6s;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes visionheading {
-    0% {top: -50px;}
-    100% {top: 50px; opacity: 1;}
-  }
-  
-  .mfmvcontent {
-    padding: 50px 30px 100px 30px;
-    line-height: 1.3;
-    opacity: 0;
-    position: relative;
-    animation: visioncontent;
-    animation-duration: 3s;
-    animation-delay: 9s;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes visioncontent {
-    0% {left: -1000px;}
-    100% {left: 0px; opacity: 1;}
-  }
   
   a.tweet {
     text-decoration: none;
@@ -267,6 +339,7 @@
     text-decoration: none;
   }
 
+/* Return to top Arrow */
   #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -315,4 +388,17 @@
 
 a.github {
   text-decoration: none;
+}
+
+li {
+  padding: 10px 0px;
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 18px;;
+  }
+  .whatwebeleiveheading {
+    text-align: center;
+  }
 }

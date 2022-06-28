@@ -12,6 +12,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+// Event Listener to show toastify Icon on the click of EDIT button
 const editButton = document.querySelectorAll(".edit");
       const numberOfEditButtons = editButton.length;
       for (let i = 0; i < numberOfEditButtons; i++) {
@@ -28,3 +29,11 @@ const editButton = document.querySelectorAll(".edit");
           }).showToast();
         });
 }
+
+// Follow Us animation with Typed.js
+var typed = new Typed(".followusanimation", {
+    strings: ["Follow us"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+});

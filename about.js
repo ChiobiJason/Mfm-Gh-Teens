@@ -11,3 +11,11 @@ $('#return-to-top').click(function() {      // When arrow is clicked
         scrollTop : 0                       // Scroll to top of body
     }, 500);
 });
+
+// Follow us Animation with Typed.js
+var typed = new Typed(".followusanimation", {
+    strings: ["Follow us"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+});
