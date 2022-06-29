@@ -12,6 +12,9 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+//Get Current Year
+document.querySelector("#year").innerHTML = new Date().getFullYear();
+
 // Follow us Animation with Typed.js
 var typed = new Typed(".followusanimation", {
     strings: ["Follow us"],

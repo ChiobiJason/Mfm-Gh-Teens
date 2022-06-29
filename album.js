@@ -12,6 +12,9 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+//Get Current Year
+document.querySelector("#year").innerHTML = new Date().getFullYear();
+
 // Event Listener to show toastify Icon on the click of EDIT button
 const editButton = document.querySelectorAll(".edit");
       const numberOfEditButtons = editButton.length;
