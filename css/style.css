@@ -92,6 +92,76 @@ img {
   height: 32rem;
 }
 
+/* Upcoming Events */
+.event-heading {
+  font-size: 50px;
+}
+
+@media (max-width: 462px) {
+  .event-heading {
+      font-size: 25px;
+  }
+}
+
+.event-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #912090;
+}
+
+.event-link:hover {
+  text-decoration: none;
+  color: #912090;
+}
+
+.event-info {
+  text-align: left;
+  font-size: 30px;
+}
+
+@media (max-width: 462px) {
+  .event-info {
+      text-align: left;
+      font-size: 20px;
+  }
+}
+
+#countdown {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.day,.hour,.minute,.second {
+  font-size: 3rem;
+}
+
+.container-day, .container-hour, .container-minute {
+  padding: 10px 100px 0px 0px;
+  border-right: 1px solid black;
+}
+
+.container-second {
+  padding: 10px 30px 0px 0px;
+}
+
+@media (max-width: 462px) {
+  .container-day, .container-hour, .container-minute {
+      padding: 10px 30px 0px 15px;
+      border-right: 1px solid black;
+  }
+  
+  .container-second {
+      padding: 10px 30px 0px 15px;
+  }
+}
+
+.timedesc {
+  font-size: 10px;
+  color: #7c7c7c;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
