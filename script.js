@@ -25,7 +25,7 @@ const countdown = () => {
     document.querySelector(".second").innerText = textSecond;
 };
 
-// setInterval(countdown, 1000);
+setInterval(countdown, 1000);
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
