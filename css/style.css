@@ -9,6 +9,7 @@ body {
 
 img {
   max-width: 100%;
+  object-fit: cover;
 }
 
 /* Navbar */
@@ -84,7 +85,7 @@ img {
   height: 32rem;
 }
 
-.carousel-item>img {
+.carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -99,7 +100,7 @@ img {
 
 @media (max-width: 462px) {
   .event-heading {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
@@ -121,8 +122,8 @@ img {
 
 @media (max-width: 462px) {
   .event-info {
-      text-align: left;
-      font-size: 20px;
+    text-align: left;
+    font-size: 20px;
   }
 }
 
@@ -133,11 +134,16 @@ img {
   text-align: center;
 }
 
-.day,.hour,.minute,.second {
+.day,
+.hour,
+.minute,
+.second {
   font-size: 3rem;
 }
 
-.container-day, .container-hour, .container-minute {
+.container-day,
+.container-hour,
+.container-minute {
   padding: 10px 100px 0px 0px;
   border-right: 1px solid black;
 }
@@ -147,13 +153,15 @@ img {
 }
 
 @media (max-width: 462px) {
-  .container-day, .container-hour, .container-minute {
-      padding: 10px 30px 0px 15px;
-      border-right: 1px solid black;
+  .container-day,
+  .container-hour,
+  .container-minute {
+    padding: 10px 30px 0px 15px;
+    border-right: 1px solid black;
   }
-  
+
   .container-second {
-      padding: 10px 30px 0px 15px;
+    padding: 10px 30px 0px 15px;
   }
 }
 
@@ -176,8 +184,8 @@ img {
 
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 /* rtl:end:ignore */
@@ -193,7 +201,7 @@ img {
   font-weight: 300;
   line-height: 1;
   /* rtl:remove */
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 .mfmhqgh {
@@ -275,7 +283,6 @@ img {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 40em) {
-
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
