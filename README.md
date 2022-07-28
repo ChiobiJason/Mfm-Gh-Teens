@@ -4,11 +4,15 @@
 
 # MFM National Headquarters Teenage Website Ghana 🇬🇭
 
-This is thhe official website for the Teenage Church @ MFM National Headquarters Ghana 🇬🇭
+This is the official website for the Teenage Church @ MFM National Headquarters Ghana 🇬🇭
 
 ## Tech Stack
 
-HTML, CSS, Bootstrap, Javascript & JQuery.
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- JQuery
 
 
 ## Author
