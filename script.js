@@ -4,7 +4,7 @@ AOS.init();
 
 //Upcoming Event Timer
 const countdown = () => {
-    const countDate = new Date('July 31, 2022 08:00:00').getTime();
+    const countDate = new Date('August 07, 2022 08:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -25,7 +25,7 @@ const countdown = () => {
     document.querySelector(".second").innerText = textSecond;
 };
 
-setInterval(countdown, 1000);
+//setInterval(countdown, 1000);
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {
