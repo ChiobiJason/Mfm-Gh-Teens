@@ -6,9 +6,6 @@ const countdown = () => {
   const countDate = new Date("August 28, 2022 08:00:00").getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
-  const countDate = new Date("August 14, 2022 08:00:00").getTime();
-  const now = new Date().getTime();
-  const gap = countDate - now;
 
   //Time calculation
   const second = 1000;
