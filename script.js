@@ -3,7 +3,7 @@ AOS.init();
 
 //Upcoming Event Timer
 const countdown = () => {
-  const countDate = new Date("January 29, 2023 08:00:00").getTime();
+  const countDate = new Date("February 05, 2023 08:00:00").getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
 
