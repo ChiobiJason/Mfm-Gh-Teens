@@ -5,7 +5,10 @@ AOS.init();
 const countdown = () => {
   const countDate = new Date("September 22, 2024 08:00:00").getTime();
   const now = new Date().getTime();
-  const gap = countDate - now;
+  var gap = countDate - now;
+  if (countDate == now){
+    gap = 0;
+  }
 
   //Time calculation
   const second = 1000;
